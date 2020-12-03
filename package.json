@@ -1,0 +1,25 @@
+{
+  "name": "sourcereadingnotes",
+  "version": "1.0.0",
+  "description": "源码阅读笔记",
+  "main": "index.js",
+  "scripts": {
+    "new": "node addLib.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgh815600709qq/sourceReadingNotes.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wgh815600709qq/sourceReadingNotes/issues"
+  },
+  "homepage": "https://github.com/wgh815600709qq/sourceReadingNotes#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
