@@ -15,3 +15,11 @@ const ButtonTypes = tuple('default', 'primary', 'ghost', 'dashed', 'danger', 'li
 type ButtonType = (typeof ButtonTypes)[number]; // ??
 
 ```
+
+
+
+### api
+
+```
+React.Children.count(children)
+```
