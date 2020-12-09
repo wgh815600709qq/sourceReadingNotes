@@ -35,3 +35,14 @@ process.hrtime > performance.now > Date.now
   taskInstance.apply(gulp); // rk: 类似于调用 glup task_A命令
 
 ```
+
+
+# require.resolve
+
+```
+  require.resolve
+
+  path.resolve
+  
+
+```
