@@ -40,9 +40,16 @@ process.hrtime > performance.now > Date.now
 # require.resolve
 
 ```
-  require.resolve
+  * path.resolve
+    	
+  -> fs.readFileSync(path.join(__dirname, './assets/some-file.txt'));
 
-  path.resolve
-  
+  * require.resolve
 
+  -> fs.readFileSync(require.resolve('./assets/some-file.txt'));
+
+  好处：
+  require.resolve 还会在拼接好路径之后检查该路径是否存在, 
+  如果 resolve 的目标路径不存在, 就会抛出 Cannot find module './some-file.txt' 的异常.
+  省略了一道检查文件是否存在的工序 (fs.exists)
 ```

@@ -148,6 +148,13 @@ class Title extends React.Component<{ children: Node }> {
 
 ```
     TransitionEvents.addStartEventListener(node, this.onTransitionStart);
-    
+
     TransitionEvents.addEndEventListener(node, this.onTransitionEnd);
 ```
+
+
+> is-windows
+
+https://github.com/jonschlinkert/is-windows
+
+>
